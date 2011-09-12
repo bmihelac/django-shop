@@ -48,5 +48,4 @@ def get_model_string(model_name):
     if not class_path:
         return 'shop.%s' % model_name
     else:
-        klass = load_class(class_path)
-        return '%s.%s' % (klass._meta.app_label, klass.__name__)
+        return class_path.replace('.models.', '.')
