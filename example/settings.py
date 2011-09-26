@@ -122,6 +122,9 @@ SHOP_CART_MODIFIERS = [
         'shop.cart.modifiers.rebate_modifiers.BulkRebateModifier',
         ]
 
+SHOP_CART_MODEL = 'myshop.models.MyCart'
+
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
