@@ -20,6 +20,8 @@ class Book(Product):
 
 
 class MyCart(BaseCart):
+
     class Meta(object):
+        #app_label = 'shop'
         abstract=False
 

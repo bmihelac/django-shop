@@ -122,7 +122,7 @@ SHOP_CART_MODIFIERS = [
         'shop.cart.modifiers.rebate_modifiers.BulkRebateModifier',
         ]
 
-SHOP_CART_MODEL = 'myshop.models.MyCart'
+SHOP_CART_MODEL = 'myshop.models.Cart'
 
 
 INSTALLED_APPS = (
