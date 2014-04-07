@@ -44,7 +44,6 @@ class BaseCartModifier(object):
         process_cart, and post_process_cart, so it can be used as a way to
         store per-request arbitrary information.
         """
-        pass
 
     def post_process_cart(self, cart, state):
         """
